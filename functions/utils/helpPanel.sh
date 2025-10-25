@@ -20,6 +20,7 @@ helpPanel(){
 	echo -e "\t${orangeColour}-e\t--exclude\t${endColour}${turquoiseColour} Provide a list of IP ranges to exclude. By default 'scans/excluded_ranges'.${endColour}"
 	echo -e "\t${orangeColour}-d\t--trace\t\t${endColour}${turquoiseColour} Trace the network topology of a list of ips.${endColour}"
 	echo -e "\t${orangeColour}-j\t--javat\t\t${endColour}${turquoiseColour} Perform the logins using java instead of python.${endColour}"
+	echo -e "\t${orangeColour}-a\t--nmap\t\t${endColour}${turquoiseColour} After determining the open ports with masscan, determine the running services.${endColour}"
 
 	echo -e "\t${orangeColour}-h\t--help\t\t${endColour}${turquoiseColour} Show this help message${endColour}${turquoiseColour}  ${endColour}"
 	echo -e "\n\t${orangeColour}Examples:\t${endColour}"
