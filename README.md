@@ -1,4 +1,4 @@
-# interscan
+# Interscan
 
 **interscan** is designed to distribute the process of scanning the entire internet across a distributed cluster of linux servers.
 
