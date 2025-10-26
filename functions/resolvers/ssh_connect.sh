@@ -2,7 +2,7 @@
 
 # This function is to connecting to the server using ssh
 ssh_connect (){
-	router_ip="10.142.63.195"
+	router_ip="$1"
 	public_key="~/.ssh/id_rsa.pub"
 	private_key="~/.ssh/id_rsa"
 	private_key_basename="id_rsa"
@@ -15,7 +15,4 @@ ssh_connect (){
 
 	# Import the public key
 	/user ssh-keys import public-key-file=id_rsa.pub user=admin
-
-
-
 }

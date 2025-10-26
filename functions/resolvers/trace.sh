@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This code if for tracing the network topology and discovering public IP's.
+# This code if for tracing the network topology and discovering routes to public IP's.
 trace() {
 	
 	start_cronometer
