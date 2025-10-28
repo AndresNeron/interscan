@@ -24,6 +24,5 @@ virtualenv "$envPath" --python=python3
 # Activate and install Python dependencies
 echo "[+] Installing Python dependencies..."
 source "$envPath/bin/activate"
-pip install -r requirements_cpu.txt
+pip install -r requirements.txt
 deactivate
-
