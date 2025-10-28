@@ -9,8 +9,8 @@ set -e
 REQUIRED_PACKAGES=(python3-dev python3-virtualenv)
 
 echo "[+] Installing required packages..."
-sudo apt update || true
-sudo apt install -y "${REQUIRED_PACKAGES[@]}"
+sudo apt-get update || true
+sudo apt-get install -y "${REQUIRED_PACKAGES[@]}"
 
 # Define paths
 rootPath="$(dirname "$(realpath "$0")")"
