@@ -1,0 +1,4 @@
+cat%20%2Fetc%2Fos-release
+cat%2520%252Fetc%252Fos-release
+%77%68%6f%61%6d%69
+%2577%2568%256f%2561%256d%2569
