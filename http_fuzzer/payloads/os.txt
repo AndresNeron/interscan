@@ -1,1 +1,0 @@
-cat%20%2Fetc%2Fos-release
